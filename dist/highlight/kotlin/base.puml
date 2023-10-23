@@ -1,0 +1,29 @@
+!function $TYPE($s)
+!return "<b><color #445588>" + $s + "</color></b>"
+!endfunction
+
+!function $KEYWORD($s)
+!return "<b><color #000000>" + $s + "</color></b>"
+!endfunction
+
+!public = $KEYWORD(public)
+!private = $KEYWORD(private)
+!protected = $KEYWORD(protected)
+!override = $KEYWORD(override)
+!val = $KEYWORD(val)
+!var = $KEYWORD(var)
+
+!Int = $TYPE(Int)
+!String = $TYPE(String)
+!Boolean = $TYPE(Boolean)
+!Double = $TYPE(Double)
+!BigDecimal = $TYPE(BigDecimal)
+
+!List = $TYPE(List)
+!Map = $TYPE(Map)
+!Set = $TYPE(Set)
+
+!ZoneId = $TYPE(ZoneId)
+!ZonedDateTime = $TYPE(ZonedDateTime)
+!Instant = $TYPE(Instant)
+!Duration = $TYPE(Duration)
